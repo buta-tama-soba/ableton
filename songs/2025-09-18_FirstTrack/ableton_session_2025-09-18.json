@@ -1,0 +1,75 @@
+{
+  "session_info": {
+    "tempo": 120.0,
+    "time_signature": "4/4",
+    "track_count": 7,
+    "created_date": "2025-09-18",
+    "description": "808ドラム、ベース、リードシンセによるトラックセッション"
+  },
+  "tracks": [
+    {
+      "index": 4,
+      "name": "Drums",
+      "type": "MIDI",
+      "instrument": "808 Core Kit",
+      "volume": 0.85,
+      "clips": [
+        {
+          "name": "808 Pattern",
+          "length_bars": 1,
+          "notes_count": 36,
+          "description": "キック、スネア、ハイハット、オープンハット、タムを含む808ドラムパターン"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Bass",
+      "type": "MIDI",
+      "instrument": "808 Pure",
+      "volume": 0.39,
+      "clips": [
+        {
+          "name": "Bassline",
+          "length_bars": 1,
+          "notes_count": 13,
+          "description": "808ベースによるグルーヴィなベースライン"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Lead Synth",
+      "type": "MIDI",
+      "instrument": "Mega Saw",
+      "volume": 0.42,
+      "clips": [
+        {
+          "name": "Lead Melody",
+          "length_bars": 1,
+          "notes_count": 13,
+          "description": "Mega Sawシンセによるメロディライン"
+        }
+      ]
+    }
+  ],
+  "pattern_data": {
+    "drum_pattern": {
+      "kick": "C1 on beats 1, 2, 3, 4",
+      "snare": "D1 on beats 1.5, 2.5, 3.5, 4.5",
+      "hihat": "F#1 - 16th notes throughout",
+      "open_hihat": "A#1 on off-beats",
+      "toms": "G1, A1 - fills at bars 2 and 4"
+    },
+    "bass_pattern": {
+      "root_notes": "C2",
+      "progression": "C - Eb - F - Eb pattern",
+      "rhythm": "Syncopated 8th and 16th notes"
+    },
+    "lead_melody": {
+      "key": "C minor",
+      "range": "C4 - Bb4",
+      "style": "Melodic phrase with ascending and descending motion"
+    }
+  }
+}

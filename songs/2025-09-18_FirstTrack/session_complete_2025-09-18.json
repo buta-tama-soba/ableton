@@ -1,0 +1,165 @@
+{
+  "session_metadata": {
+    "created_date": "2025-09-18",
+    "tempo": 120,
+    "time_signature": "4/4",
+    "total_tracks": 3,
+    "master_volume": 0.625,
+    "description": "完成したSession Viewセッション - 全セクション揃い"
+  },
+  "tracks": {
+    "drums": {
+      "track_index": 4,
+      "name": "Drums",
+      "instrument": "808 Core Kit",
+      "volume": 0.85,
+      "panning": 0.0,
+      "clips": [
+        {
+          "slot": 0,
+          "name": "808 Pattern",
+          "section": "Chorus",
+          "length": 4.0,
+          "description": "フルドラムパターン、キック4つ打ち、スネア裏拍、16分ハイハット"
+        },
+        {
+          "slot": 1,
+          "name": "Drums - Verse",
+          "section": "Verse",
+          "length": 4.0,
+          "description": "シンプルなパターン、スネア2拍4拍のみ、ハイハット控えめ"
+        },
+        {
+          "slot": 2,
+          "name": "Drums - Pre-Chorus",
+          "section": "Pre-Chorus",
+          "length": 4.0,
+          "description": "ビルドアップ、キック増加、スネアロールで盛り上げ"
+        },
+        {
+          "slot": 3,
+          "name": "Drums - Intro",
+          "section": "Intro",
+          "length": 4.0,
+          "description": "ミニマル、キックとハイハットのみ、徐々にフェードイン"
+        },
+        {
+          "slot": 4,
+          "name": "Drums - Outro",
+          "section": "Outro",
+          "length": 4.0,
+          "description": "フェードアウト、音数減少、静かに終わる"
+        }
+      ]
+    },
+    "bass": {
+      "track_index": 5,
+      "name": "Bass",
+      "instrument": "808 Pure",
+      "volume": 0.387,
+      "panning": 0.0,
+      "clips": [
+        {
+          "slot": 0,
+          "name": "Bassline",
+          "section": "Chorus",
+          "length": 4.0,
+          "description": "グルーヴィなベースライン、C-Eb-F進行"
+        },
+        {
+          "slot": 1,
+          "name": "Bass - Verse",
+          "section": "Verse",
+          "length": 4.0,
+          "description": "シンプルなルート音中心、少ないノート数"
+        },
+        {
+          "slot": 2,
+          "name": "Bass - Pre-Chorus",
+          "section": "Pre-Chorus",
+          "length": 4.0,
+          "description": "動きのあるパターン、最後に上昇フレーズ"
+        },
+        {
+          "slot": 3,
+          "name": "Bass - Intro",
+          "section": "Intro",
+          "length": 4.0,
+          "description": "後半から入る、控えめなサブベース"
+        },
+        {
+          "slot": 4,
+          "name": "Bass - Outro",
+          "section": "Outro",
+          "length": 4.0,
+          "description": "ロングノート、フェードアウト"
+        }
+      ]
+    },
+    "lead_synth": {
+      "track_index": 6,
+      "name": "Lead Synth",
+      "instrument": "Mega Saw",
+      "volume": 0.425,
+      "panning": 0.0,
+      "clips": [
+        {
+          "slot": 0,
+          "name": "Lead Melody",
+          "section": "Chorus",
+          "length": 4.0,
+          "description": "メインメロディ、キャッチーなフレーズ"
+        },
+        {
+          "slot": 1,
+          "name": "Lead - Verse (Sparse)",
+          "section": "Verse",
+          "length": 4.0,
+          "description": "控えめなメロディ、ボーカルスペース確保"
+        },
+        {
+          "slot": 2,
+          "name": "Lead - Pre-Chorus",
+          "section": "Pre-Chorus",
+          "length": 4.0,
+          "description": "上昇メロディ、緊張感を高める"
+        },
+        {
+          "slot": 3,
+          "name": "Lead - Intro (Ambient)",
+          "section": "Intro",
+          "length": 4.0,
+          "description": "アンビエントな長いノート、雰囲気作り"
+        },
+        {
+          "slot": 4,
+          "name": "Lead - Outro (Fade)",
+          "section": "Outro",
+          "length": 4.0,
+          "description": "和音でフェードアウト"
+        }
+      ]
+    }
+  },
+  "song_structure": {
+    "sections": [
+      "Intro",
+      "Verse",
+      "Pre-Chorus",
+      "Chorus",
+      "Outro"
+    ],
+    "arrangement_suggestion": [
+      {"section": "Intro", "bars": 8, "slot": 3},
+      {"section": "Verse 1", "bars": 8, "slot": 1},
+      {"section": "Pre-Chorus", "bars": 8, "slot": 2},
+      {"section": "Chorus 1", "bars": 8, "slot": 0},
+      {"section": "Verse 2", "bars": 8, "slot": 1},
+      {"section": "Pre-Chorus", "bars": 8, "slot": 2},
+      {"section": "Chorus 2", "bars": 16, "slot": 0},
+      {"section": "Outro", "bars": 8, "slot": 4}
+    ],
+    "total_length_bars": 72,
+    "total_duration": "2:24 (at 120 BPM)"
+  }
+}
